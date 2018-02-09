@@ -1,0 +1,40 @@
+.swiper-container
+{
+   
+   margin-top: 25px;
+  
+}
+
+
+.aboutPart
+{
+    margin-top: 200px;
+    margin-bottom: 200px;
+   
+    position: relative;
+}
+
+
+body
+{
+    background-color: white;
+}
+
+
+.aboutParagraph
+{
+    
+    height: 550px;
+    float: right;
+}
+
+form
+{
+    
+ 
+    width: 433px;
+    height: 75px;
+    background-color: transparent;
+    border: none;
+    border-style: none;
+}

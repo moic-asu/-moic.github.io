@@ -1,0 +1,302 @@
+.clear-fix
+{
+    clear: both;
+}
+.hidden
+{
+    display: none;
+}
+.title-arch {
+    text-align: center;
+    margin: 50px 0;
+    font-size: 22px;
+    letter-spacing: 2px;
+    background-color: #000;
+    color: white;
+    text-transform: uppercase;
+    padding-left: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 0;
+	}
+.allprojects{
+    margin-left: 100px
+}
+.project {
+	width: 100%;
+	height: 310px;
+    margin: 10px 30px;
+	background-image: url(../images/radio-microphone.jpg);
+	background-size: cover;
+	background-position: center;
+	padding: 0 !important;
+	float:left;
+    border: 1px solid #9a9696;
+    margin-bottom: 20px;
+}
+
+.project-2 {
+	background-image: url(../images/maxresdefault.jpg);
+}
+
+.project-3 {
+    	background-image: url(../images/smith%20journal%202.jpg);
+
+}
+
+.project-4 {
+	background-image: url(../images/Events.jpg);
+}
+.project-5 {
+	background-image: url(../images/Juice-Cleanses-in-Singapore-12.jpg);
+}
+
+.project-hover {
+	width: 100%;
+	height: 100%;
+	color: #fff;
+	opacity: 0;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+    background-color: rgba(178, 196, 178, 0.7);
+	padding: 15% 25px !important;
+}
+
+.project-hover hr {
+	height: 30px;
+	width: 0;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	background-color: rgba(255, 255, 255, 1);
+	border: 0;
+}
+
+.project-hover a {
+	color: rgba(255, 255, 255, 1);
+	padding: 2px 22px;
+	line-height: 40px;
+	border: 2px solid rgba(255, 255, 255, 1);
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+
+.project-hover a:hover {
+	border-color: rgba(51, 51, 51, 1);
+	color: rgba(51, 51, 51, 1);
+	background-color: #FFF;
+}
+
+.project:hover .project-hover {
+	opacity: 1;
+}
+
+.project:hover .project-hover hr {
+	width: 100%;
+	height: 5px;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .allprojects {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+/**************Start About Us Section******************/
+.about_us {
+    background-color: #00695a;;
+    margin-top: 50px;
+    width: 100%;
+    margin-bottom: 50px;
+    height: 480px;
+}
+.about_us .about_title{
+    float: right;
+    margin-top: -28px;
+    margin-right: 44px;
+    display: block;
+    background-color: #000;
+    color: white;
+    font-size: 27px;
+    padding: 14px;
+    border-radius: 3px;
+}
+.allcontent{
+    margin-top: 20px;
+}
+.about_us .personX{
+   
+    margin-top: 10%;
+    display: inline;
+    margin-left: 18%;
+}
+.about_us .comment{
+        margin-top: 12%;
+    display: inline;
+    height: 209px;
+    text-align: center;
+    background-color: azure;
+    padding: 66px 30px 0px;
+    border-radius: 5px;
+
+}
+
+.speaker_img{
+   height: 35%;
+    width: 51%;
+}
+
+.about_us .speaker_name{
+    margin-top: 10%;   
+
+}
+.next button:hover,
+.prev button:hover{
+  opacity: 1;
+  cursor: pointer;
+    text-align: center;
+}
+
+button:focus {outline:0;}
+button.next, button.prev{
+        position: absolute;
+    margin-top: -156px;
+    margin-left: 16px;
+    margin-right: 16px;
+    border-radius: 13px;
+}
+.next {
+  right: 0;
+  opacity: 0.7;
+}
+
+.prev {
+  left: 0;
+  opacity: 0.7;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .about_us .personX {
+        margin-left: 35%;
+    }
+    .about_us .speaker_name{
+    margin-top: 5%;
+    text-align: center;
+    width: 170px;}
+    .about_us .comment{
+       margin-top: 0px;
+    margin-left: 139px;
+    height: 143px;
+    padding: 39px 10px;
+    }
+    .about_us {
+ 
+    height: 500px;
+    }
+}
+/**************End About Us Section********************/
+    
+body, div, h1,h2, form, fieldset, input, textarea, footer,p {
+	margin: 0; padding: 0; border: 0; outline: none;
+}
+    body { color: #7c7873; font-family: 'YanoneKaffeesatzRegular';}
+    p {text-shadow:0 1px 0 #fff; font-size:19px;}
+    #wrap {width:530px; margin:20px auto 0; height:660px;}
+    h1 {margin-bottom:20px; text-align:center;font-size:48px; text-shadow:0 1px 0 #ede8d9; }
+
+    @font-face { scr:url(fonts/DISTGRG_.ttf); font-family:'YanoneKaffeesatzRegular'}
+     @font-face { scr:url(yanonekaffeesatz-regular-webfont.svg); font-family:regular}
+   
+   #form_wrap:before {
+        content:"";
+        position:absolute;
+		bottom:128px;left:0px;
+		background:url('../images/before.png');
+		width:530px;height: 316px;
+    }
+    
+    #form_wrap:after {
+        content:"";
+        position:absolute;
+		bottom:0px;left:0;
+		background:url('../images/after.png');
+		width:530px;height: 260px; }
+
+	#form_wrap.hide:after, #form_wrap.hide:before {display:none; }
+	#form_wrap:hover {height:776px;top:-200px;}
+
+
+    	#form_wrap { overflow:hidden; height:446px; position:relative; top:0px;
+		transition: all 1s ease-in-out .3s;
+		transition: all 1s ease-in-out .3s;
+		transition: all 1s ease-in-out .3s;
+		transition: all 1s ease-in-out .3s;
+        transition: all 1s ease-in-out .3s;
+        transition: all 1s ease-in-out .3s;
+    }
+	
+    
+    form {background:#f7f2ec url('images/letter_bg.png'); 
+		position:relative;
+        top:183px;
+        overflow:hidden;
+		height:200px;
+        width:400px;
+        margin:10px auto;padding:20px; 
+		border: 10px solid #fff;
+        border-radius: 5px; -moz-border-radius: 3px; -webkit-border-radius: 3px;
+		box-shadow: 0px 0px 3px #9d9d9d, inset 0px 0px 27px #fff;
+		box-shadow: 0px 0px 3px #9d9d9d, inset 0px 0px 14px #fff;
+		box-shadow: 0px 0px 3px #9d9d9d, inset 0px 0px 27px #fff;
+		transition: all 1s ease-in-out .3s;
+		transition: all 1s ease-in-out .3s;
+		transition: all 1s ease-in-out .3s;
+		transition: all 1s ease-in-out .3s;}
+    
+    #form_wrap:hover form {height:530px;}
+
+		
+	   input[type=text], textarea {
+			font: 14px normal normal uppercase helvetica, arial, serif;
+			color: #7c7873;background:none;
+			width: 380px; height: 36px; padding: 0px 10px; margin: 0 0 10px 0;
+			border:1px solid #f8f5f1;
+			border-radius: 5px; border-radius: 5px; border-radius: 5px;
+            box-shadow: inset 0px 0px 1px #726959;
+			box-shadow:  inset 0px 0px 1px #b3a895; 
+			box-shadow:  inset 0px 0px 1px #b3a895;
+		}	
+
+		textarea { height: 80px; padding-top:14px;}
+
+		textarea:focus, input[type=text]:focus {background:rgba(255,255,255,.35);}
+
+		#form_wrap input[type=submit] {
+			position:relative;font-family: 'YanoneKaffeesatzRegular'; 
+			font-size:24px; color: #7c7873;text-shadow:0 1px 0 #fff;
+			width:100%; text-align:center;opacity:0;
+			background:none;
+            cursor: pointer;
+            border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; 
+			transition: opacity .6s ease-in-out 0s;
+			transition: opacity .6s ease-in-out 0s;
+			transition: opacity .6s ease-in-out 0s;
+			transition: opacity .6s ease-in-out 0s;
+		}
+
+		#form_wrap:hover input[type=submit] {z-index:1;opacity:1;
+			transition: opacity .5s ease-in-out 1.3s;
+			transition: opacity .5s ease-in-out 1.3s;
+            transition: opacity .5s ease-in-out 1.3s;
+			transition: opacity .5s ease-in-out 1.3s;}
+
+			#form_wrap:hover input:hover[type=submit] {color:#435c70;}
+}
+	
+}
